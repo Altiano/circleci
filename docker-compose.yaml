@@ -1,0 +1,9 @@
+version: '3'
+services:
+  deps-mongo:
+    image: mongo:5.0.14
+    container_name: circleci-deps-mongo
+    ports:
+      - "27017:27017"
+
+ 
